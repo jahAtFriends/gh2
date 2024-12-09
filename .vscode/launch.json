@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Horizontal Line",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/graham.py",
+            "console": "integratedTerminal",
+            "args": [
+                "test_cases/horizontal.txt"
+            ]
+        },
+        {
+            "name": "Vertical Line",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/graham.py",
+            "console": "integratedTerminal",
+            "args": [
+                "test_cases/vertical.txt"
+            ]
+        },
+        {
+            "name": "Rainbow",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/graham.py",
+            "console": "integratedTerminal",
+            "args": [
+                "test_cases/rainbow.txt"
+            ]
+        },
+        {
+            "name": "From Video",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/graham.py",
+            "console": "integratedTerminal",
+            "args": [
+                "test_cases/from_video.txt"
+            ]
+        }
+    ]
+}
